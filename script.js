@@ -1,4 +1,3 @@
-console.log("Hello js");
 
 let size = prompt("Enter the size of number");
 
@@ -12,7 +11,7 @@ for (let i = 0; i < size; i++) {
 }
 
 for(let i = 0; i < size; i++){
-  document.write(<li>array[i]</li>);
+  document.write(`<li>${array[i]}</li>`);
   document.write("<br>");
 }
 
